@@ -25,9 +25,9 @@ public class ValueGenerator {
         return value;
     }
 
-    static public int under50() {
+    static public int between2550() {
         Random r = new Random();
-        int low = 1;
+        int low = 25;
         int high = 50;
         int value = r.nextInt(high-low) + low;
         return value;

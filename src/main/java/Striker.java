@@ -2,8 +2,8 @@ public class Striker extends ValueStrategy {
 
     public int setAcceleration() { return ValueGenerator.max25(); }
     public int setSprintSpeed() {return ValueGenerator.max25();};
-    public int setPositioning() {return ValueGenerator.max25();};
-    public int setFinishing() {return ValueGenerator.max25();};
+    public int setPositioning() {return ValueGenerator.between2550();};
+    public int setFinishing() {return ValueGenerator.between2550();};
     public int setVision() {return ValueGenerator.max25();};
     public int setCrossing() {return ValueGenerator.max25();};
     public int setAgility() {return ValueGenerator.max25();};

@@ -12,22 +12,22 @@ public class Gold extends CategoryDecorator {
 
     @Override
     public int getPositioning() {
-        return character.getPositioning() + 74 ;
+        return character.getPositioning() + 49 ;
     };
 
     @Override
     public int getFinishing() {
-        return character.getFinishing() + 74 ;
+        return character.getFinishing() + 49;
     };
 
     @Override
     public int getVision() {
-        return character.getVision() + 74 ;
+        return character.getVision() + 49 ;
     };
 
     @Override
     public int getCrossing() {
-        return character.getCrossing() + 74 ;
+        return character.getCrossing() + 49 ;
     };
 
     @Override
@@ -42,21 +42,21 @@ public class Gold extends CategoryDecorator {
 
     @Override
     public int getInterceptions()  {
-        return character.getInterceptions() + 74 ;
+        return character.getInterceptions() + 49 ;
     };
 
     @Override
     public int getHeadingAccuracy() {
-        return character.getHeadingAccuracy() + 74 ;    };
+        return character.getHeadingAccuracy() + 49 ;    };
 
     @Override
     public int getJumping() {
-        return character.getJumping() + 74;
+        return character.getJumping() + 49;
     };
 
     @Override
     public int getStamina() {
-        return character.getStamina() + 74;};
+        return character.getStamina() + 49;};
 
     @Override
     public void printValues() {character.printValues();};

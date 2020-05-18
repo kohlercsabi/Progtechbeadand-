@@ -9,8 +9,8 @@ public class Defender extends ValueStrategy {
     public int setCrossing() {return ValueGenerator.max25();};
     public int setAgility() {return ValueGenerator.max25();};
     public int setBalance() {return ValueGenerator.max25();};
-    public int setInterceptions() {return ValueGenerator.max25();}
-    public int setHeadingAccuracy() {return ValueGenerator.max25();};
+    public int setInterceptions() {return ValueGenerator.between2550();}
+    public int setHeadingAccuracy() {return ValueGenerator.between2550();};
     public int setJumping() {return ValueGenerator.max25();};
     public int setStamina() {return ValueGenerator.max25();};
 

@@ -4,8 +4,8 @@ public class Midfielder extends ValueStrategy {
     public int setSprintSpeed() {return ValueGenerator.max25();};
     public int setPositioning() {return ValueGenerator.max25();};
     public int setFinishing() {return ValueGenerator.max25();};
-    public int setVision() {return ValueGenerator.max25();};
-    public int setCrossing() {return ValueGenerator.max25();};
+    public int setVision() {return ValueGenerator.between2550();};
+    public int setCrossing() {return ValueGenerator.between2550();};
     public int setAgility() {return ValueGenerator.max25();};
     public int setBalance() {return ValueGenerator.max25();};
     public int setInterceptions() {return ValueGenerator.max25();}

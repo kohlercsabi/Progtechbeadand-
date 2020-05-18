@@ -19,28 +19,28 @@ public class Silver extends CategoryDecorator {
 
     @Override
     public int getPositioning() {
-        return character.getPositioning() + 50;
+        return character.getPositioning() + 25;
     }
 
     ;
 
     @Override
     public int getFinishing() {
-        return character.getFinishing() + 50;
+        return character.getFinishing() + 25;
     }
 
     ;
 
     @Override
     public int getVision() {
-        return character.getVision() + 50;
+        return character.getVision() + 25;
     }
 
     ;
 
     @Override
     public int getCrossing() {
-        return character.getCrossing() + 50;
+        return character.getCrossing() + 25;
     }
 
     ;
@@ -61,28 +61,28 @@ public class Silver extends CategoryDecorator {
 
     @Override
     public int getInterceptions() {
-        return character.getInterceptions() + 50;
+        return character.getInterceptions() + 25;
     }
 
     ;
 
     @Override
     public int getHeadingAccuracy() {
-        return character.getHeadingAccuracy() + 50;
+        return character.getHeadingAccuracy() + 25;
     }
 
     ;
 
     @Override
     public int getJumping() {
-        return character.getJumping() + 50;
+        return character.getJumping() + 25;
     }
 
     ;
 
     @Override
     public int getStamina() {
-        return character.getStamina() + 50;
+        return character.getStamina() + 25;
     }
 
     ;

@@ -10,8 +10,8 @@ public class Goalkeeper extends ValueStrategy {
     public int setBalance() {return ValueGenerator.max25();};
     public int setInterceptions() {return ValueGenerator.max25();}
     public int setHeadingAccuracy() {return ValueGenerator.max25();};
-    public int setJumping() {return ValueGenerator.max25();};
-    public int setStamina() {return ValueGenerator.max25();};
+    public int setJumping() {return ValueGenerator.between2550();};
+    public int setStamina() {return ValueGenerator.between2550();};
 
     public int setPace(){return 0;};
     public int setShooting(){return 0;};
