@@ -85,7 +85,43 @@ public class Silver extends CategoryDecorator {
         return character.getStamina() + 25;
     }
 
-    ;
+
+    @Override
+    public int getPace() {
+        return ((getAcceleration() + getSprintSpeed()) /2);
+    }
+
+    @Override
+    public int getShooting() {
+        return ((getPositioning() + getFinishing()) /2);
+    }
+
+    @Override
+    public int getPassing() {
+        return ((getVision() + getCrossing()) /2);
+    }
+
+    @Override
+    public int getDribbling() {
+        return ((getAgility() + getBalance()) /2);
+    }
+
+    @Override
+    public int getDefending() {
+        return ((getInterceptions() + getHeadingAccuracy()) / 2 );
+    }
+
+    @Override
+    public int getPhysicality() {
+        return ((getJumping() + getStamina()) /2);
+    }
+
+    @Override
+    public int getOveral() {
+        return ((getPace() + getShooting() + getPassing() + getDribbling() + getDefending() + getPhysicality()) /6);
+    }
+
+
 
     @Override
     public void printValues() {

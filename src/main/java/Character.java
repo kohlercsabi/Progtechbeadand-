@@ -162,27 +162,8 @@ public class Character implements ICharacter {
 
     @Override
     public void printValues() {
-        System.out.println("Your football player skills:");
-        System.out.println("Acceleration: " + getAcceleration());
-        System.out.println("Sprint speed: " + getSprintSpeed());
-        System.out.println("Positioning: " + getPositioning());
-        System.out.println("Finishing: " + getFinishing());
-        System.out.println("Vision: " + getVision());
-        System.out.println("Crossing: " + getCrossing());
-        System.out.println("Agility: " + getAgility());
-        System.out.println("Balance: " + getBalance());
-        System.out.println("Interceptions: " + getInterceptions());
-        System.out.println("Heading Accuracy: " + getHeadingAccuracy());
-        System.out.println("Jumping: " + getJumping());
-        System.out.println("Stamina: " + getStamina());
-        System.out.println("Your football player summarized values:");
-        System.out.println("Pace: " + getPace());
-        System.out.println("Shooting: " + getShooting());
-        System.out.println("Passing: " + getPassing());
-        System.out.println("Dribbling: " + getDribbling());
-        System.out.println("Defending: " + getDefending());
-        System.out.println("Physicality: " + getPhysicality());
-        System.out.println("Overal: " + getOveral());
+
+
 
     };
 

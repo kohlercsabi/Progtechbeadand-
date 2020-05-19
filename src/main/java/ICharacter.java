@@ -12,6 +12,13 @@ public interface ICharacter {
     int getHeadingAccuracy();
     int getJumping();
     int getStamina();
+    int getPace();
+    int getShooting();
+    int getPassing();
+    int getDribbling();
+    int getDefending();
+    int getPhysicality();
+    int getOveral();
 
-    public void printValues();
+    void printValues();
 }

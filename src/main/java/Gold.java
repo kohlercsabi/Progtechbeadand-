@@ -4,7 +4,9 @@ public class Gold extends CategoryDecorator {
     }
 
     @Override
-    public int getAcceleration() {return character.getAcceleration() + 74 ;};
+    public int getAcceleration()
+    { return character.getAcceleration() + 74;};
+
 
     @Override
     public int getSprintSpeed() {
@@ -56,8 +58,48 @@ public class Gold extends CategoryDecorator {
 
     @Override
     public int getStamina() {
-        return character.getStamina() + 49;};
+        return character.getStamina() + 49;}
 
     @Override
-    public void printValues() {character.printValues();};
+    public int getPace() {
+        return ((getAcceleration() + getSprintSpeed()) /2);
+    }
+
+    @Override
+    public int getShooting() {
+        return ((getPositioning() + getFinishing()) /2);
+    }
+
+    @Override
+    public int getPassing() {
+        return ((getVision() + getCrossing()) /2);
+    }
+
+    @Override
+    public int getDribbling() {
+        return ((getAgility() + getBalance()) /2);
+    }
+
+    @Override
+    public int getDefending() {
+        return ((getInterceptions() + getHeadingAccuracy()) / 2 );
+    }
+
+    @Override
+    public int getPhysicality() {
+        return ((getJumping() + getStamina()) /2);
+    }
+
+    @Override
+    public int getOveral() {
+        return ((getPace() + getShooting() + getPassing() + getDribbling() + getDefending() + getPhysicality()) /6);
+    }
+
+
+
+    @Override
+    public void printValues()
+    {character.printValues();};
 }
+
+
